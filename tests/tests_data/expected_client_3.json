@@ -1,0 +1,11 @@
+[
+  {
+    "amount": 100,
+    "reference": "1",
+    "amountWithFees": 105,
+    "amountReceived": 50,
+    "qualityCheck": "",
+    "overPayment": false,
+    "underPayment": true
+  }
+]

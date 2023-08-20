@@ -1,0 +1,56 @@
+[
+  {
+    "amount": 9955860.0,
+    "reference": "122112337",
+    "amountWithFees": 10154977.2,
+    "amountReceived": 9955867.41,
+    "qualityCheck": "AmountThreshold",
+    "overPayment": false,
+    "underPayment": true
+  },
+  {
+    "amount": 33889378.52,
+    "reference": "15013661",
+    "amountWithFees": 34567166.09,
+    "amountReceived": 33889378.52,
+    "qualityCheck": "AmountThreshold",
+    "overPayment": false,
+    "underPayment": true
+  },
+  {
+    "amount": 147285996.74,
+    "reference": "5556007",
+    "amountWithFees": 150231716.67,
+    "amountReceived": 147285996.74,
+    "qualityCheck": "AmountThreshold",
+    "overPayment": false,
+    "underPayment": true
+  },
+  {
+    "amount": 138310524.48,
+    "reference": "18816673",
+    "amountWithFees": 141076734.97,
+    "amountReceived": 138310522.31,
+    "qualityCheck": "AmountThreshold",
+    "overPayment": false,
+    "underPayment": true
+  },
+  {
+    "amount": 48621547.0,
+    "reference": "55444688",
+    "amountWithFees": 49593977.94,
+    "amountReceived": 48621547.0,
+    "qualityCheck": "AmountThreshold",
+    "overPayment": false,
+    "underPayment": true
+  },
+  {
+    "amount": 81155158.0,
+    "reference": "63176682",
+    "amountWithFees": 82778261.16,
+    "amountReceived": 81155155.0,
+    "qualityCheck": "AmountThreshold",
+    "overPayment": false,
+    "underPayment": true
+  }
+]

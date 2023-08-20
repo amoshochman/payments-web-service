@@ -1,0 +1,65 @@
+[
+  {
+    "amount": 100,
+    "reference": "1",
+    "amountWithFees": 105,
+    "amountReceived": 50,
+    "qualityCheck": "",
+    "overPayment": false,
+    "underPayment": true
+  },
+  {
+    "amount": 100,
+    "reference": "2",
+    "amountWithFees": 105,
+    "amountReceived": 50,
+    "qualityCheck": "DuplicatedPayment",
+    "overPayment": false,
+    "underPayment": true
+  },
+  {
+    "amount": 100,
+    "reference": "3",
+    "amountWithFees": 105,
+    "amountReceived": 50,
+    "qualityCheck": "InvalidEmail, DuplicatedPayment",
+    "overPayment": false,
+    "underPayment": true
+  },
+  {
+    "amount": 1000000,
+    "reference": "4",
+    "amountWithFees": 1020000,
+    "amountReceived": 50,
+    "qualityCheck": "InvalidEmail, DuplicatedPayment, AmountThreshold",
+    "overPayment": false,
+    "underPayment": true
+  },
+  {
+    "amount": 26.46,
+    "reference": "5",
+    "amountWithFees": 27.78,
+    "amountReceived": 13.23,
+    "qualityCheck": "DuplicatedPayment",
+    "overPayment": false,
+    "underPayment": true
+  },
+  {
+    "amount": 638.57,
+    "reference": "5",
+    "amountWithFees": 670.5,
+    "amountReceived": 638.57,
+    "qualityCheck": "",
+    "overPayment": false,
+    "underPayment": true
+  },
+  {
+    "amount": 1,
+    "reference": "5",
+    "amountWithFees": 1.05,
+    "amountReceived": 2,
+    "qualityCheck": "InvalidEmail, DuplicatedPayment",
+    "overPayment": true,
+    "underPayment": false
+  }
+]

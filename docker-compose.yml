@@ -1,0 +1,16 @@
+version: '3'
+services:
+  client:
+    build: .
+    ports:
+      - 5001:5000
+    restart: always
+    volumes:
+      - .:/client
+  server:
+    build: .././server
+    ports:
+      - 9292:9292
+    restart: always
+    volumes:
+      - .././server:/server
